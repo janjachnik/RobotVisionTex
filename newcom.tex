@@ -1,0 +1,63 @@
+\unitlength=1mm
+
+\newcommand{\TODO}[1]{~\\ \textbf{TODO:} #1}
+\newcommand{\ignore}[1]{}
+
+\newcommand{\ba}{\begin{array}}
+\newcommand{\ea}{\end{array}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\newcommand{\be}{\begin{enumerate}}
+\newcommand{\ee}{\end{enumerate}}
+\newcommand{\bea}{\begin{eqnarray}}
+\newcommand{\eea}{\end{eqnarray}}
+\newcommand{\beas}{\begin{eqnarray*}}
+\newcommand{\eeas}{\end{eqnarray*}}
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+\newcommand{\bfig}{\begin{figure}}
+\newcommand{\efig}{\end{figure}}
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\bpic}{\begin{picture}}
+\newcommand{\epic}{\end{picture}}
+\newcommand{\btabular}{\begin{tabular}}
+\newcommand{\etabular}{\end{tabular}}
+\newcommand{\btable}{\begin{table}}
+\newcommand{\etable}{\end{table}}
+
+% Black and white \bs and \es
+%\newcommand{\bs}[1]{\begin{slide}{}{\tiny #1} \\
+%                    \rule[6mm]{170mm}{0.7mm}}
+%\newcommand{\es}{\vfill
+%                 \rule[-6mm]{170mm}{0.7mm} \\
+%                 {\tiny 
+%		  \hfill S-\theslide}
+%                 \end{slide}}
+%\newcommand{\Ltitle}[1]{\bc {\Large\bf \vspace{-15mm} #1} \ec}
+%\newcommand{\ltitle}[1]{\bc {\large\bf \vspace{-15mm} #1} \ec}
+
+% Colour versions of \bs and \es
+\newcommand{\bs}[1]{\begin{slide}{}\redw{{\tiny #1}} \\
+                    \rule[6mm]{170mm}{0.7mm}}
+\newcommand{\es}{\vfill
+                 \rule[-6mm]{170mm}{0.7mm} \\
+                 \redw{{\tiny 
+		  \hfill S-\theslide}}
+                 \end{slide}}
+\newcommand{\Ltitle}[1]{\bc {\Large\bf \vspace{-15mm} #1} \ec}
+\newcommand{\ltitle}[1]{\bc {\large\bf \vspace{-15mm} #1} \ec}
+
+\newcommand{\ruleoff}{\mbox{\\\rule{\columnwidth}{0.1mm}}}
+
+% Originally \newcommand{\dsp}{\setlength{\baselineskip}{22truept}}
+%\newcommand{\dsp}{\setlength{\baselineskip}{21truept}}
+\newcommand{\matxx}[1]{{\tt #1}}
+\newcommand{\vecXX}[1]{{\bf #1}}
+\newcommand{\icap}[1]{{\caption{\em #1}}}
+
+\def \nor {\normalsize}
+
+\newcommand{\argmin}{\operatornamewithlimits{arg\ min}}
+\newcommand{\argmax}{\operatornamewithlimits{arg\ max}}
+\newcommand{\maxarg}{\operatornamewithlimits{\ max}}

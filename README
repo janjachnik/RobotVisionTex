@@ -1,0 +1,59 @@
+RobotVision .bib file. 
+
+This will live in svn and everyone should check it out once on each of
+                  their machines, keep it synchronised and up to date
+                  and then make a symbolic link to it from paper directories.
+
+Style notes:
+
+To try to stay consistent, citations strings should have this form:
+
+Single author paper:
+Davison:ICCV2005
+
+Two author paper:
+Klein:Murray:ISMAR2007
+
+More than two authors:
+Angeli:etal:TRO2008
+
+Conference references can be simple like this:
+
+@inproceedings{Chli:Davison:ECCV2008,
+        title = "Active Matching",
+        author = "M. Chli and A. J. Davison",
+        booktitle = ECCV,
+        year = 2008
+}
+
+In this day and age I don't think there's any need for page numbers,
+                  city name, etc. for conferences.
+
+Journal references should include full number, volume, page information:
+
+@article{Civera:etal:IJCV2009,
+        title = "Drift-Free Real-Time Mosaicing",
+        author = "J. Civera and A. J. Davison and J. A. Magall\'{o}n and J. M. M. Montiel",
+        journal = IJCV,
+        volume = "81",
+        number = "2",
+        pages = "128--137",
+        year = 2009
+}
+
+There are a lot of strings defined just below for all the main
+                  conferences and journals so use these to keep the
+                  format standard. I like the ones we have here which
+                  have the full name as well as the familiar acronym
+                  to make them stand out. I think we should phase out
+                  the year-specific conference strings because these
+                  aren't really necessary any more.
+
+
+Remember that in bib entries you need to put curly brackets around
+                  things you want to stay in capital letters like {3D}
+                  or {SLAM}.
+
+There are probably still some entries in the file which aren't
+                  consisten with this style but we'll try to iron them
+                  out gradually.
