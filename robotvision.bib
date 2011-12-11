@@ -656,10 +656,10 @@
  address = {San Diego, USA}
 } 
 
-@ARTICLE{bell1993iterated,
+@ARTICLE{Bell:Cathey:AutomaticControl1993,
   author = {Bell, B.M. and Cathey, F.W.},
-  title = {The iterated Kalman filter update as a Gauss-Newton method},
-  journal = {Automatic Control, IEEE Transactions on},
+  title = {The iterated {K}alman filter update as a {G}auss-{N}ewton method},
+  journal = {IEEE Transactions on Automatic Control},
   year = {1993},
   volume = {38},
   pages = {294--297},
@@ -1545,12 +1545,15 @@
   year = {2007}
 }
 
-@UNPUBLISHED{Civera:etal:JFR2010,
+@ARTICLE{Civera:etal:JFR2010,
   author = {J. Civera and O. Grasa and A. J. Davison and J. M. M. Montiel},
-  title = {1-Point {RANSAC} for {EKF} Filtering. Application to Real-Time Structure
+  title = {1-Point {RANSAC} for {EKF} Filtering. {A}pplication to Real-Time Structure
 	from Motion and Visual Odometry},
-  note = {Accepted for publication in the Journal of Field Robotics},
-  year = {2010}
+  journal = {Journal of Field Robotics},
+  year = {2010},
+  volume = {27},
+  number = {5},
+  pages	 = {609--631}
 }
 
 @INPROCEEDINGS{Civera:etal:IROS2009,
@@ -2217,7 +2220,7 @@
 
 @ARTICLE{Doucet,
   author = {Doucet, A. and Freitas, N. and Murphy, K. and Russell, S.},
-  title = {Rao-Blackwellised Particle Filtering for Dynamic Bayesian Networks},
+  title = {Rao-{B}lackwellised Particle Filtering for Dynamic Bayesian Networks},
   journal = {In Proceedings of the Sixteenth Conference on Uncertainty in Artificial
 	Intelligence},
   year = {2000},
@@ -2496,7 +2499,7 @@
 
 @CONFERENCE{Elinas:etal:ICRA2006,
   author = {Elinas, P. and Sim, R. and Little, J.J.},
-  title = {Stereo Vision {SLAM} Using the Rao-Blackwellised Particle Filter
+  title = {Stereo Vision {SLAM} Using the {R}ao-{B}lackwellised Particle Filter
 	and a Novel Mixture Proposal Distribution},
   booktitle = ICRA,
   year = {2006}
@@ -3405,7 +3408,7 @@
 @ARTICLE{Grisetti:etal:RAS2007,
   author = {Grisetti, G and Tipaldi, G.D. and Stachniss, C. and Burgard, W. and
 	Nardi, D.},
-  title = {Fast and accurate {SLAM} with Rao-Blackwellized particle filters},
+  title = {Fast and accurate {SLAM} with {R}ao-{B}lackwellized particle filters},
   journal = RAS,
   year = {2007},
   volume = {55},
@@ -6452,13 +6455,11 @@
   year = {1994}
 }
 
-@ARTICLE{mclauchlan1994recursive,
+@ARTICLE{McLauchlan:etal:ECCV1994,
   author = {McLauchlan, P. and Reid, I. and Murray, D.},
   title = {Recursive affine structure and motion from image sequences},
   journal = ECCV,
-  year = {1994},
-  pages = {217--224},
-  publisher = {Springer}
+  year = {1994}
 }
 
 @TECHREPORT{McLauchlan:TR92,
@@ -6898,65 +6899,13 @@
   year = {2003}
 }
 
-@INPROCEEDINGS{Montemerlo2002,
-  author = {M. Montemerlo and S. Thrun and D. Koller and B. Wegbreit},
-  title = {{FastSLAM}: A factored solution to the simultaneous localization
-	and mapping problem},
-  booktitle = {AAAI National Conference on Artificial Intelligence},
-  year = {2002},
-  abstract = {The ability to simultaneously localize a robot and accurately
-	
-	map its surroundings is considered by many to
-	
-	be a key prerequisite of truly autonomous robots. However,
-	
-	few approaches to this problem scale up to handle
-	
-	the very large number of landmarks present in real environments.
-	
-	Kalman filter-based algorithms, for example,
-	
-	require time quadratic in the number of landmarks to incorporate
-	
-	each sensor observation. This paper presents
-	
-	FastSLAM, an algorithm that recursively estimates the
-	
-	full posterior distribution over robot pose and landmark
-	
-	locations, yet scales logarithmically with the number of
-	
-	landmarks in the map. This algorithm is based on an exact
-	
-	factorization of the posterior into a product of conditional
-	
-	landmark distributions and a distribution over
-	
-	robot paths. The algorithm has been run successfully
-	
-	on as many as 50,000 landmarks, environments far beyond
-	
-	the reach of previous approaches. Experimental
-	
-	results demonstrate the advantages and limitations of
-	
-	the FastSLAM algorithm on both simulated and realworld
-	
-	data.},
-  file = {montemerlo.fastslam-tr.pdf:/data/Biblio/articles/fastslam/montemerlo.fastslam-tr.pdf:PDF},
-  keywords = {FastSLAM laser},
-  owner = {adrien},
-  timestamp = {2008.04.14}
-}
 
 @INPROCEEDINGS{Montemerlo:etal:AAAI2002,
   author = {Montemerlo, M. and Thrun, S. and Koller, D. and Wegbreit, B.},
   title = {{FastSLAM}: {A} Factored Solution to the Simultaneous Localization
 	and Mapping Problem},
   booktitle = {Proceedings of the AAAI National Conference on Artificial Intelligence},
-  year = {2002},
-  address = {Edmonton, Canada},
-  publisher = {AAAI}
+  year = {2002}
 }
 
 @INPROCEEDINGS{Montiel2006,
@@ -8028,7 +7977,7 @@
 
 @INPROCEEDINGS{pietzsch:BMVC2008,
   author = {Pietzsch, T.},
-  title = {Efficient feature parameterisation for visual slam using inverse
+  title = {Efficient feature parameterisation for visual {SLAM} using inverse
 	depth bundles},
   booktitle = BMVC,
   year = {2008}
@@ -8434,7 +8383,7 @@ pages={189 -- 194}
 
 @INPROCEEDINGS{ranganathan_icra2006,
   author = {A. Ranganathan and F. Dellaert},
-  title = {A Rao-Blackwellized Particle Filter for Topological Mapping},
+  title = {A {R}ao-{B}lackwellized Particle Filter for Topological Mapping},
   booktitle = ICRA,
   year = {2006}
 }
@@ -9333,7 +9282,7 @@ pages={189 -- 194}
   year = {1998}
 }
 
-@ARTICLE{sibley2008sliding,
+@ARTICLE{Sibley:etal:UPCRV2008,
   author = {Sibley, G. and Matthies, L. and Sukhatme, G.},
   title = {A sliding window filter for incremental {SLAM}},
   journal = {Unifying perspectives in computational and robot vision},
@@ -9342,10 +9291,10 @@ pages={189 -- 194}
   publisher = {Springer}
 }
 
-@INPROCEEDINGS{Sibley05biasreduction,
-  author = {Gabe Sibley and Larry Matthies and Gaurav Sukhatme},
+@INPROCEEDINGS{Sibley:etal:ISRR2005,
+  author = {G. Sibley and L. Matthies and G. Sukhatme},
   title = {Bias reduction filter convergence for long range stereo},
-  booktitle = {In 12th International Symposium of Robotics Research},
+  booktitle = {12th International Symposium of Robotics Research},
   year = {2005}
 }
 
@@ -9507,38 +9456,10 @@ pages={189 -- 194}
   timestamp = {2008.03.19}
 }
 
-@CONFERENCE{Sim2005,
-  author = {Sim, R. and Elinas, P. and Griffin, M. and Little, J.J.},
-  title = {Vision-based {SLAM} using the Rao-Blackwellised Particle Filter},
-  booktitle = {IJCAI Workshop Reasoning with Uncertainty in Robotics},
-  year = {2005},
-  abstract = {We consider the problem of Simultaneous Localization and Mapping (SLAM)
-	from a Bayesian point of view using the Rao-Blackwellised Particle
-	Filter (RBPF). We focus on the class of indoor mobile robots equipped
-	with only a stereo vision sensor. Our goal is to construct dense
-	metric maps of natural 3D point landmarks for large cyclic environments
-	in the absence of accurate landmark position measurements and reliable
-	motion estimates. Landmark estimates are derived from stereo vision
-	and motion estimates are based on visual odometry. We distinguish
-	between landmarks using the Scale Invariant Feature Transform (SIFT).
-	Our work differs from current popular approaches that rely on reliable
-	motion models derived from odometric hardware and accurate landmark
-	measurements obtained with laser sensors. We present results that
-	show that our model is a successful approach for vision-based SLAM,
-	even in large environments. We validate our approach experimentally
-	for long camera trajectories. We identify the areas where future
-	research should focus in order to further increase its accuracy and
-	scalability to significantly larger environments.},
-  file = {ijcai_rur05.pdf:/data/Biblio/articles/fastslam/ijcai_rur05.pdf:PDF},
-  keywords = {SLAM Bayesian filtering Rao-Blackwellised Particle Filter stereo vision
-	metric visual odometry SIFT},
-  owner = {adrien},
-  timestamp = {2005.10.09}
-}
 
 @INPROCEEDINGS{Sim:etal:RUR2005,
   author = {R. Sim and P. Elinas and M. Griffin and J. J. Little},
-  title = {Vision-based {SLAM} using the Rao-Blackwellised Particle Filter},
+  title = {Vision-based {SLAM} using the {R}ao-{B}lackwellised Particle Filter},
   booktitle = {Proceedings of the {IJCAI} Workshop on Reasoning with Uncertainty
 	in Robotics},
   year = {2005}
@@ -10904,14 +10825,11 @@ pages={189 -- 194}
   number = {5}
 }
 
-@INPROCEEDINGS{Werlberger2010,
-  author = {Manuel Werlberger and Thomas Pock and Horst Bischof},
+@INPROCEEDINGS{Werlberger:etal:CVPR2010,
+  author = {M. Werlberger and T. Pock and H. Bischof},
   title = {Motion Estimation with Non-Local Total Variation Regularization},
-  booktitle = {{IEEE} Computer Society Conference on Computer Vision and Pattern
-	Recognition (CVPR)},
-  year = {2010},
-  address = {San Francisco, CA, USA},
-  month = {June}
+  booktitle = CVPR,
+  year = {2010}
 }
 
 @ARTICLE{Whaite:Ferrie:PAMI1997,
@@ -11384,5 +11302,16 @@ pages={189 -- 194}
   howpublished = {URL http://www.metrics.co.uk},
   year = {2001},
   key = {Vicon}
+}
+
+@article {Mei:etal:IJCV2011,
+   author = {Mei, C. and Sibley, G. and Cummins, M. and Newman, P. and Reid, I.},
+   title = {{RSLAM}: A System for Large-Scale Mapping in Constant-Time Using Stereo},
+   journal = IJCV,
+   publisher = {Springer},
+   pages = {198-214},
+   volume = {94},
+   issue = {2},
+   year = {2011}
 }
 
