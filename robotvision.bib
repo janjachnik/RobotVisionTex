@@ -12,7 +12,7 @@
 @STRING{BMVC = {Proceedings of the British Machine Vision Conference ({BMVC})}}
 
 @STRING{CG = {Computers and Graphics}}
-
+		
 @STRING{CVGIP = {Computer Vision, Graphics, and Image Processing}}
 
 @STRING{CVGIPIU = {{CVGIP}: Image Understanding}}
@@ -1086,7 +1086,7 @@
 
 @CONFERENCE{Burgard2009comparison,
   author = {Burgard, W. and Stachniss, C. and Grisetti, G. and Steder, B. and
-	Kummerle, R. and Dornhege, C. and Ruhnke, M. and Kleiner, A. and
+	K{\"u}mmerle, R. and Dornhege, C. and Ruhnke, M. and Kleiner, A. and
 	Tard{\'o}s, J.D.},
   title = {{A comparison of {SLAM} algorithms based on a graph of relations}},
   booktitle = IROS,
@@ -4938,10 +4938,17 @@
    year = {2011}
 }
 
-@INPROCEEDINGS{konolige2010bmvc,
+@INPROCEEDINGS{Konolige:BMVC2010,
   author = {K. Konolige},
   title = {Sparse Sparse Bundle Adjustment},
   booktitle = BMVC,
+  year = {2010}
+}
+
+@INPROCEEDINGS{Konolige:etal:IROS2010,
+  author = {Konolige, K. and G. Grisetti and R. K\"{u}mmerle and W. Burgard and B. Limketkai and V. Regis},
+  title = {Sparse Pose Adjustment for 2D Mapping},
+  booktitle = IROS,
   year = {2010}
 }
 
@@ -5144,16 +5151,8 @@
   number = {4}
 }
 
-@INPROCEEDINGS{kuemmerle11icra,
-  author = {Kuemmerle, R. and Grisetti, G. and Strasdat, H. and Konolige, K.
-	and Burgard, W.},
-  title = {g2o: A General Framework for Graph Optimization},
-  booktitle = ICRA,
-  year = {2011}
-}
-
 @ARTICLE{kuemmerle2009measuring,
-  author = {Kuemmerle, R. and Steder, B. and Dornhege, C. and Ruhnke, M. and
+  author = {K{\"u}mmerle, R. and Steder, B. and Dornhege, C. and Ruhnke, M. and
 	Grisetti, G. and Stachniss, C. and Kleiner, A.},
   title = {On measuring the accuracy of {SLAM} algorithms},
   journal = {Autonomous Robots},
@@ -5198,7 +5197,7 @@
 }
 
 @INPROCEEDINGS{Kummerle:etal:ICRA2011,
-  author = {R. Kummerle and G. Grisetti and H. Strasdat and K. Konolige and W.
+  author = {R. K{\"u}mmerle and G. Grisetti and H. Strasdat and K. Konolige and W.
 	Burgard},
   title = {{$g^2o$}: A General Framework for Graph Optimization},
   booktitle = ICRA,
@@ -7586,7 +7585,7 @@
   timestamp = {2006.09.18}
 }
 
-@ARTICLE{Nister2004b,
+@ARTICLE{Nister:PAMI2004,
   author = {Nist\'er, D.},
   title = {An Efficient Solution to the Five-Point Relative Pose Problem},
   journal = PAMI,
@@ -11315,3 +11314,94 @@ pages={189 -- 194}
    year = {2011}
 }
 
+@article{Kaess:etal:IJRR2012,
+   author = {M. Kaess and H. Johannsson and R. Roberts and V. Ila and J.
+	Leonard and F. Dellaert},
+   title = {{iSAM2}: Incremental Smoothing and Mapping Using the {B}ayes Tree},
+   journal = IJRR,
+   year = {2012},
+   note = {To appear}
+}
+
+@BOOK{Stillwell:Book2008,
+  title = {Naive Lie Theory},
+  publisher = {Springer},
+  year = {2008},
+  author = {J. Stillwell}
+}
+
+@article{vonNeumann:MathematischeZeitschrift1929,
+   author = {J. von Neumann},
+   title = {\"{U}ber die analytischen {E}igenschaften von {G}ruppen lineare {T}ransformationen und ihrer {D}arstellungen},
+   journal = {Matematische Zeitschrift},
+   year = {1929},
+   volume = {30},
+   pages = {3-42}
+}
+
+@BOOK{Rossmann:Book2002,
+  title = {Lie Groups: An Introduction Through Linear Groups},
+  publisher = {Oxford University press},
+  year = {2002},
+  series = {Oxford Graduate Texts in Mathematics},
+  author = {W. Rossmann}
+}
+
+@BOOK{Gallier:Book2011,
+  title = {Geometric Methods and Applications:
+For Computer Science and Engineering},
+  publisher = {Springer},
+  year = {2011},
+  author = {J. Gallier},
+    edition = {Second}
+}
+
+@TECHREPORT{Shewchuk:TechReport1994,
+  author = {J.R. Shewchuk},
+  title = {An Introduction to the Conjugate Gradient Method Without the Agonizing Pain},
+  institution = {School of Computer Science, Carnegie Mellon University},
+  year = {1994}
+}
+
+@BOOK{Nocedal:Wright:Book2006,
+  title = {Nummerical Optimization},
+  publisher = {Springer},
+  series = {Springer Series in Operations Research and Financial Engineering},
+  year = {2006},
+   edition = {Second},
+  author = {J. Nocedal and S.J. Wright}
+}
+
+@article{Schoenhage:Strassen:Computing1971,
+   author = {J. Sch\"{o}nhage and V. Strassen},
+   title = {Schnelle {M}ultiplikation grosser {Z}ahlen},
+   journal = {Computing},
+   publisher = {Springer},
+   year = {1971},
+   volume = {7},
+   issue = {3-4},
+   pages = {281--292}
+}
+
+@article{Highham:TOMS1990,
+   author = {N.J. Highham},
+   title = {Exploiting fast matrix multiplication within the level 3 {BLAS}},
+   journal = {ACM Transactions on Mathematical Software (TOMS)},
+   year = {1990},
+   volume = {16},
+   issue = {4}
+}
+
+@TECHREPORT{Williams:TechReport2011,
+  author = {V. Williams},
+  title = {Breaking the {C}oppersmith-{W}inograd barrier},
+  institution = {UC Berkeley and Stanford University},
+  year = {2011}
+}
+
+@INPROCEEDINGS{Kummerle:etal:IROS2010,
+  author = {R. K{\"u}mmerle and G. Grisetti and W.Burgard},
+  title = {Simultaneous Calibration, Localization, and Mapping},
+  booktitle = IROS,
+  year = {2011}
+}
